@@ -18,13 +18,17 @@ header{
     padding: 10px;
     color: white;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-    margin: 70px 0 10px 0;      
+    margin: 70px 0 10px 0;  
+    height: 150px;
+    background-image: url("../img/hatter.jpg") !important;  
 }
 
 h1{
     font-weight: 700;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
     padding-top: 50px;
+    text-align: center;
+    font-size: 70px;
 } 
 
 header nav{
@@ -37,8 +41,7 @@ header nav a{
     color: rgb(12, 11, 11);
     margin-left:15px;
     display: inline-block;  
-    padding: 10px 15px;    
-    text-transform: uppercase;  
+    padding: 10px 15px;     
 }
 
 header nav a:hover{
@@ -53,13 +56,19 @@ header nav a:hover{
     height: 95%;
     border: 1px rgb(235, 232, 232) ridge;
     border-radius: 2%;
-    box-shadow:10px 10px 30px black;    
+    box-shadow:10px 10px 30px grey;
+    text-align: justify;
+    padding: 15px;
+    margin: 10px;  
 }
 
 .cim{
     text-align:center;
     background-color: rgba(0,0,0,0.2);
     padding: 5px;
+    color: #624116;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 footer{
@@ -67,6 +76,13 @@ footer{
     color:white;
     text-align: center;
     padding: 15px;
+}
+
+footer a:hover{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 55%;
 }
 
 
@@ -86,6 +102,8 @@ form{
     margin: 30px auto;
     border-radius: 2%;
     box-shadow:10px 10px 20px grey;
+    max-width: 600px;
+    background-color: rgb(243, 243, 243);
 }
 
 .klarinetos {
@@ -93,14 +111,17 @@ form{
 }
 
 ul{
+    list-style: square;
+    padding-left: 20px;
 }
 
 .table{
     max-width: 600px;
     text-align: left;
-    margin-top: 50px;
-    margin-bottom: 35px;
+    margin-top: 50px !important;
+    margin-bottom: 35px !important;
     box-shadow:10px 10px 20px grey;
+    margin: auto;
 }
 
 th{
